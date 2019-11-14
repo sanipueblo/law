@@ -1,0 +1,40 @@
+{
+    "repositories": {
+        "sanipueblo/law-docs": {
+            "urls": [
+                "https://github.com/sanipueblo/law-docs.git"
+            ],
+            "custom": {
+                "type": "docs",
+                "allow-unauthenticated-commits": true
+            }
+        },
+        "sanipueblo/law-xml": {
+            "urls": [
+                "https://github.com/sanipueblo/law-xml.git"
+            ],
+            "custom": {
+                "type": "xml",
+                "allow-unauthenticated-commits": true
+            }
+        },
+        "sanipueblo/law-html": {
+            "urls": [
+                "https://github.com/sanipueblo/law-html.git"
+            ],
+            "custom": {
+                "preview": "https://github.com/sanipueblo/law-html-preview.git",
+                "type": "html"
+            }
+        },
+        "sanipueblo/law-xml-codified": {
+            "urls": [
+                "https://github.com/sanipueblo/law-xml-codified.git"
+            ],
+            "custom": {
+                "preview": "https://github.com/sanipueblo/law-xml-codified-preview.git",
+                "type": "xml-codified"
+            }
+        }
+    }
+}
