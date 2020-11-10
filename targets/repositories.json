@@ -1,40 +1,43 @@
 {
-    "repositories": {
-        "sanipueblo/law-docs": {
-            "urls": [
-                "https://github.com/sanipueblo/law-docs.git"
-            ],
-            "custom": {
-                "type": "docs",
-                "allow-unauthenticated-commits": true
-            }
-        },
-        "sanipueblo/law-xml": {
-            "urls": [
-                "https://github.com/sanipueblo/law-xml.git"
-            ],
-            "custom": {
-                "type": "xml",
-                "allow-unauthenticated-commits": true
-            }
-        },
-        "sanipueblo/law-html": {
-            "urls": [
-                "https://github.com/sanipueblo/law-html.git"
-            ],
-            "custom": {
-                "preview": "https://github.com/sanipueblo/law-html-preview.git",
-                "type": "html"
-            }
-        },
-        "sanipueblo/law-xml-codified": {
-            "urls": [
-                "https://github.com/sanipueblo/law-xml-codified.git"
-            ],
-            "custom": {
-                "preview": "https://github.com/sanipueblo/law-xml-codified-preview.git",
-                "type": "xml-codified"
-            }
-        }
-    }
+  "repositories": {
+      "sanipueblo/law-docs": {
+          "custom": {
+              "allow-unauthenticated-commits":true,
+              "serve":"latest",
+              "location_regex":"~/.*\\.pdf$"
+          }
+      },
+      "sanipueblo/law-xml": {
+          "custom": {
+              "type":"xml",
+              "allow-unauthenticated-commits":true,
+              "serve":"latest",
+              "serve-prefix":"_uncodified_xml"
+          }
+      },
+      "sanipueblo/law-html": {
+          "custom": {
+              "preview":"https://github.com/sanipueblo/law-html-preview.git",
+              "type":"html",
+              "serve":"historical",
+              "location_regex":"/"
+          }
+      },
+      "sanipueblo/law-xml-codified": {
+          "custom": {
+              "preview":"https://github.com/sanipueblo/law-xml-codified-preview.git",
+              "type":"xml-codified",
+              "serve":"historical",
+              "serve-prefix":"_xml"
+          }
+      },
+      "sanipueblo/law-static-assets": {
+          "custom": {
+              "type":"static-assets",
+              "allow-unauthenticated-commits":true,
+              "serve":"latest",
+              "location_regex":"~.+(_document|_reader).+$"
+          }
+      }
+  }
 }
