@@ -2,16 +2,66 @@
  "signatures": [
   {
    "keyid": "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b",
-   "sig": "2d892bacb0b48b662e3d1945096250042acacc2a4aa03c688cdfdf7dae3180ea57faeb08bde38e98af91ac9231e6e54a7435e998add88545c90b105a914e0bcad5bd0b1724eef3c6a244e555562238203cbbbfd5524017dfb5434598431aaa88cf5acd3e366d19ae0c8c104e68ebd2722f71e06a5a728050a71cf6e0262e42fe78e20f6d831a4345616b9d47d01bfa0c9c6169f376b789951e80f2ab5c4b12e2b9631ba5fb0ad61fd660098e4185d4059075ead3796d696cd0a7a39edc330fc18eb5e68d425f21b0f461550940643ebe89fcd806ecaf6243e7f73cd325e94fef0707c0fb18fc1a522889b33477b0f4ecdff4ed9c357c061cd30a04c553ae4e7e"
+   "sig": "18115b9e1c2544fd53ac2aa32afff67eac4e7e0a9eb3ae1155c796e4187afa49effe1fa60681670df6eb6525ee28907836c18ea4f06eda2e39d807b814d96f62bb3ec1189699fbdfa9fccbfa6ccb6493a558eaa1b7750ef61d4e69237e6638eb126db104946bee36def38af5f41f73391fab209ed3896bfc14ef46a069c80a6894d4cd1983e671c10f93deb528af47022505983acebc274fccc27cc6c5313c3777f626d86ed2a6e0151c16738feb5aa422c2825ed1bdd38d2568f51ce8492765956cc1fdd4b15fbdd80d7eb048bbe06c0355e0f8f4fb7754b3e368400257bfaf9aae75a4888187231d863812d5fe80d9a7ca1c43ffb45a922dc33a1d17f96448"
   }
  ],
  "signed": {
   "_type": "targets",
   "delegations": {
-   "keys": {},
-   "roles": []
+   "keys": {
+    "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b": {
+     "keyid_hash_algorithms": [
+      "sha256",
+      "sha512"
+     ],
+     "keytype": "rsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1heRzGMtHO9WtduHG+ur\ntYbkLoQzr3NkNAEGALqL/JGiIhsZGlzfWVB7r9zawmW7bs5B0vB9iETgPnPao9QD\n+SVVJIscMoQfKP7hcQuXOxpHG7aUaZrLNTqyvGezCkfKZeGCVtmKZynKsZe2QUaN\nzvx9gKdiibAGvR62Co2KjKmPidssL7qxc0vLbq3cZd+xjDhdK/3i74BtfzxqFayy\nQ1pDBEMDs++Edm17cbVD4OwRMF9nod6vNPgGHC0ljBiSohs/BIAxxGTOboUtAMv5\nSnzMxeQhuKQoAJsJoi9+ea+voG/Sd9WJxvtwH85qImCLPD1XL6kfhNIdfJjFol0U\n6QIDAQAB\n-----END PUBLIC KEY-----"
+     },
+     "scheme": "rsa-pkcs1v15-sha256"
+    }
+   },
+   "roles": [
+    {
+     "keyids": [
+      "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b"
+     ],
+     "name": "law",
+     "paths": [
+      "sanipueblo/law-xml",
+      "sanipueblo/law-html",
+      "sanipueblo/law-xml-codified",
+      "capstone",
+      "branch"
+     ],
+     "terminating": false,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b"
+     ],
+     "name": "docs",
+     "paths": [
+      "sanipueblo/law-docs"
+     ],
+     "terminating": false,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b"
+     ],
+     "name": "assets",
+     "paths": [
+      "sanipueblo/law-static-assets"
+     ],
+     "terminating": false,
+     "threshold": 1
+    }
+   ]
   },
-  "expires": "2021-02-08T08:09:33Z",
+  "expires": "2021-02-08T13:12:05Z",
   "spec_version": "1.0",
   "targets": {
    "mirrors.json": {
@@ -29,6 +79,6 @@
     "length": 1254
    }
   },
-  "version": 4
+  "version": 5
  }
 }
