@@ -1,14 +1,25 @@
 {
  "signatures": [
   {
-   "keyid": "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b",
-   "sig": "18115b9e1c2544fd53ac2aa32afff67eac4e7e0a9eb3ae1155c796e4187afa49effe1fa60681670df6eb6525ee28907836c18ea4f06eda2e39d807b814d96f62bb3ec1189699fbdfa9fccbfa6ccb6493a558eaa1b7750ef61d4e69237e6638eb126db104946bee36def38af5f41f73391fab209ed3896bfc14ef46a069c80a6894d4cd1983e671c10f93deb528af47022505983acebc274fccc27cc6c5313c3777f626d86ed2a6e0151c16738feb5aa422c2825ed1bdd38d2568f51ce8492765956cc1fdd4b15fbdd80d7eb048bbe06c0355e0f8f4fb7754b3e368400257bfaf9aae75a4888187231d863812d5fe80d9a7ca1c43ffb45a922dc33a1d17f96448"
+   "keyid": "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68",
+   "sig": "06686d3257a7b151bb8bba01f490d851c8c669ee3918f55b982ea2c9a8c726895736950ee5955a86e5fbaef1028f3d70e5266fdb9448355113d78478b58b7e6d32f1c5adc8ec8538125a30c83f6c652df1ef48fdba84dee5380e1a6268ee62a7f247e2a02ec5aea1e9edbed3fc8d2b67afc37a7c42503fb69ca5e51f59500082d62f97b13f75fb79c2d30f17c80e572d1de9fa40414984a04436cb628e4a765ed2782419ee6a47a7099b5b52848d494d0198687476493c55fcbec089bcf28b38fb1af47e8a291e60175eac105030d7d871e447c9020e6cfc6541521225cc3fac2db245194303f16906e7143b0a2f4920269f90750cb8bfc054cb2ca924f3894f"
   }
  ],
  "signed": {
   "_type": "targets",
   "delegations": {
    "keys": {
+    "ac309ec75e9e4c353d7541e0816fbbc33acc16b73167b4951873db97a239a111": {
+     "keyid_hash_algorithms": [
+      "sha256",
+      "sha512"
+     ],
+     "keytype": "rsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAshFyEk2W/hvqL2bBvo/h\njar6kKdKP9aXLj3xTrR5GiKrhvUFw4YWE+8QFlJ9GtTn8q/qwb4MDpFrDlfhAhjx\nfdzoJVV8er1DgrOzmaZHd0X3HA6e7BrnFa0wTdl2zERqvtLDSdKi7+Xz3Y/MG+S8\nLzG51drFedPOsTVoHcVAeSf6KHmh3EZPO7FmxV8eB1HQM1/TbJE8vn3vKjjL/KEr\nQk45BvozkLt1IYXqUNRzRjJTHB0wbrTF63a/nj0Woja1lBCZZ+kfSUHtfNtj6btr\nlE/rqpdh3DoEEnzbB7hpdBYAfphoGVQ/JuAuO5ZuhRVLUwW9IhAyvb8j+Z7XSo5y\nEQIDAQAB\n-----END PUBLIC KEY-----"
+     },
+     "scheme": "rsa-pkcs1v15-sha256"
+    },
     "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b": {
      "keyid_hash_algorithms": [
       "sha256",
@@ -24,7 +35,8 @@
    "roles": [
     {
      "keyids": [
-      "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b"
+      "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b",
+      "ac309ec75e9e4c353d7541e0816fbbc33acc16b73167b4951873db97a239a111"
      ],
      "name": "law",
      "paths": [
@@ -39,7 +51,8 @@
     },
     {
      "keyids": [
-      "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b"
+      "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b",
+      "ac309ec75e9e4c353d7541e0816fbbc33acc16b73167b4951873db97a239a111"
      ],
      "name": "docs",
      "paths": [
@@ -50,7 +63,8 @@
     },
     {
      "keyids": [
-      "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b"
+      "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b",
+      "ac309ec75e9e4c353d7541e0816fbbc33acc16b73167b4951873db97a239a111"
      ],
      "name": "assets",
      "paths": [
@@ -61,7 +75,7 @@
     }
    ]
   },
-  "expires": "2021-02-08T13:12:05Z",
+  "expires": "2021-11-10T17:23:16Z",
   "spec_version": "1.0",
   "targets": {
    "mirrors.json": {
@@ -79,6 +93,6 @@
     "length": 1254
    }
   },
-  "version": 5
+  "version": 6
  }
 }
