@@ -2,7 +2,7 @@
  "signatures": [
   {
    "keyid": "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68",
-   "sig": "28fdb7457814bba7372af4a9056608dfaa62eda74b4fffbf85a01db3ea47174a26f036440a9b562df61a3ae9c2c9eb2a574ec1042597993b5e007a94dbaaf06bfd67a28df7ddb1a53beb2bfedffdfa7e33a5a5492c8981d6f7e261368b958c454fc14947fa9318a3fd0759bbb5bd946d81dc3b13d47abc9daefca4a5f216f9fac556663cb969f890faa23e0f8ae8b2e6048f3b6343aa82d5cf506cbb2ab44ae9098f05bc58525fcfbcca86c71ba5636e9afbb41db72d282c7c9997cf6d6df0b51a13c3449437fc184d0b946ab68baa57fe8562b22818f2c4f891a50870308435fcdd61fb90d0fa521f595509b7a64bc19d4f4431c761ad838732cdd5f5fabcb1"
+   "sig": "696ad32f1807125344918d45f196d47be233e47478550a96f17c8d7be2032c8a5f62f76643a6e68673f2d20786ffdb4dd6cfe19115eb135828cd46038c4178ac12499392904a01b36d06ab15583a0e57158083abcb4a1d5e3a217fe4c9903d5d7d7239bf6b2715a94863bdc2d292e8852e610a517615836b7e8229c75925fca3b7398e1088f99757e01c43b3f20bf187d4e89363bf87c8a59d1957cbfc65cedf5e7ba3cb11ffdeff391d89aa77b7974a025f60cead63f4d1af1efed477b44271d5ad6f2e207ae51ed9a83cede9d0e57b3181be5b5c44030112af1289d8d3aac734169b2f73bb03cc65acc96aa1a9294c4659ef31f3f93162d59906f97433cf00"
   }
  ],
  "signed": {
@@ -86,10 +86,23 @@
      ],
      "terminating": false,
      "threshold": 1
+    },
+    {
+     "keyids": [
+      "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68"
+     ],
+     "name": "rdf",
+     "paths": [
+      "sanipueblo/law-rdf",
+      "rdf/branch",
+      "rdf/capstone"
+     ],
+     "terminating": true,
+     "threshold": 1
     }
    ]
   },
-  "expires": "2024-12-11T19:21:01Z",
+  "expires": "2024-12-11T19:46:30Z",
   "spec_version": "1.0.0",
   "targets": {
    "mirrors.json": {
@@ -114,6 +127,6 @@
     "length": 1355
    }
   },
-  "version": 13
+  "version": 14
  }
 }
