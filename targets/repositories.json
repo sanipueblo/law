@@ -1,57 +1,64 @@
 {
-  "scopes": [
-    "us/nsn/san-ildefonso/council"
-  ],
-  "repositories": {
-    "sanipueblo/law-docs": {
-      "custom": {
-        "allow-unauthenticated-commits": true,
-        "serve": "latest",
-        "location_regex": "~/.*\\.pdf$",
-        "routes": [
-          ".*\\.pdf"
-        ]
-      }
-    },
-    "sanipueblo/law-xml": {
-      "custom": {
-        "type": "xml",
-        "allow-unauthenticated-commits": true,
-        "serve": "latest",
-        "serve-prefix": "_uncodified_xml"
-      }
-    },
-    "sanipueblo/law-html": {
-      "custom": {
-        "preview": "git@github.com:sanipueblo/law-html-preview.git",
-        "type": "html",
-        "serve": "historical",
-        "location_regex": "/",
-        "routes": [
-          ".*"
-        ]
-      }
-    },
-    "sanipueblo/law-xml-codified": {
-      "custom": {
-        "preview": "git@github.com:sanipueblo/law-xml-codified-preview.git",
-        "type": "xml-codified",
-        "serve": "historical",
-        "serve-prefix": "_xml"
-      }
-    },
-    "sanipueblo/law-static-assets": {
-      "custom": {
-        "type": "static-assets",
-        "allow-unauthenticated-commits": true,
-        "serve": "latest",
-        "location_regex": "~.+(_document|_reader).+$",
-        "is_fallback": true,
-        "routes": [
-          ".*/_document/.*",
-          "_reader/.*"
-        ]
-      }
+    "scopes": [
+        "us/nsn/san-ildefonso/council"
+    ],
+    "repositories": {
+        "sanipueblo/law-docs": {
+            "custom": {
+                "allow-unauthenticated-commits": true,
+                "serve": "latest",
+                "location_regex": "~/.*\\.pdf$",
+                "routes": [
+                    ".*\\.pdf"
+                ]
+            }
+        },
+        "sanipueblo/law-xml": {
+            "custom": {
+                "type": "xml",
+                "allow-unauthenticated-commits": true,
+                "serve": "latest",
+                "serve-prefix": "_uncodified_xml"
+            }
+        },
+        "sanipueblo/law-html": {
+            "custom": {
+                "preview": "git@github.com:sanipueblo/law-html-preview.git",
+                "type": "html",
+                "serve": "historical",
+                "location_regex": "/",
+                "routes": [
+                    ".*"
+                ]
+            }
+        },
+        "sanipueblo/law-xml-codified": {
+            "custom": {
+                "preview": "git@github.com:sanipueblo/law-xml-codified-preview.git",
+                "type": "xml-codified",
+                "serve": "historical",
+                "serve-prefix": "_xml"
+            }
+        },
+        "sanipueblo/law-static-assets": {
+            "custom": {
+                "type": "static-assets",
+                "allow-unauthenticated-commits": true,
+                "serve": "latest",
+                "location_regex": "~.+(_document|_reader).+$",
+                "is_fallback": true,
+                "routes": [
+                    ".*/_document/.*",
+                    "_reader/.*"
+                ]
+            }
+        },
+        "sanipueblo/law-rdf": {
+            "custom": {
+                "serve": "latest",
+                "type": "rdf",
+                "serve-prefix": "_rdf"
+            }
+        }
     }
-  }
 }
